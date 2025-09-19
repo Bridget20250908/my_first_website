@@ -35,16 +35,7 @@ h6 {
   font-family: "Rubik", sans-serif;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+body,h1,h2,h3,h4,h5,h6,p,ol,ul {
   margin: 0;
   padding: 0;
 }
@@ -57,6 +48,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  color: var(--brand);
 }
 
 input,
@@ -67,7 +59,7 @@ select {
 }
  /* Utilities */
  
- .display-none {
+ .display-none{
    display: none;
  }
  /* components */
